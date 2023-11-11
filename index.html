@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Petrogenesis</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        background-image: url('https://cdn.discordapp.com/attachments/1169265488291975168/1172832795102552124/yqLT0KE.jpg?ex=6561c0a8&is=654f4ba8&hm=7fbd4fc72846fb1fdba33ec50c6cbcffbb287f165b40dca9fef01be07b0e5e0a&');
+        background-size: cover;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 8px;
+        box-shadow: 0 0 10px #a9a9a9;
+      }
+
+      h1,
+      h2 {
+        margin-top: 0;
+        font-weight: normal;
+      }
+
+      p {
+        margin-top: 20px;
+      }
+
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #7d728a;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .button:hover {
+        background-color: #6c6172;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>About Petrogenesis</h1>
+        <p>Say hello to Petrogenesis, the all-in-one bot that's perfect for managing your Discord server. Our bot offers a variety of useful features to keep your server running smoothly and your members engaged.</p>
+        <p>With our fun commands you can create a unique server experience for your users. We also offer memes and other shizzles to provide a fully fun experience.</p>
+        <p>Additionally, Petrogenesis has a range of utility commands to make your life easier.</p>
+        <p>Join our server at <a href="https://discord.gg/svjmsn46kp">https://discord.gg/svjmsn46kp</a> to meet the creators of Petrogenesis!</p>
+        <button class="button" onclick="addInvite()">Invite Petrogenesis</button>
+      </div>
+    </div>
+    <script>
+      function addInvite() {
+        window.location.href =
+          "https://discord.com/api/oauth2/authorize?client_id=1169838929327955998&permissions=8&scope=bot%20applications.commands";
+      }
+
+    </script>
+  </body>
+</html>
